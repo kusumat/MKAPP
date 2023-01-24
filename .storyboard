@@ -1,0 +1,77 @@
+{
+    "models": {
+        "mobile": {
+            "class": "GraphLinksModel",
+            "linkDataArray": [
+                {
+                    "actionId": "NAVIGATE_TO_FORM__eb3206016edf4cbb9224f1c0b3dd5b8d",
+                    "actionSequenceId": "AS_Button_dd92c13ed32646f68c79fde32e6cb19b",
+                    "beautifiedPath": "frmHome > btnClickMe > onClick",
+                    "evt": "ide_onClick",
+                    "from": "fef891f031b743d482f6ffc52b9da9c4",
+                    "isPSP": false,
+                    "points": [
+                        95.6,
+                        364.045263671875,
+                        95.6,
+                        374.045263671875,
+                        95.6,
+                        372,
+                        95.6,
+                        372,
+                        95.6,
+                        450.9785970052083,
+                        210,
+                        450.9785970052083,
+                        228,
+                        450.9785970052083
+                    ],
+                    "to": "c3c33575ce054ec6b38e43419edd71e1",
+                    "widgetKUID": "b8f8faf6e4a4482082b2c820e9a2df1f"
+                },
+                {
+                    "actionId": "NAVIGATE_TO_FORM__ge12e3b7689046228efca105c9b43005",
+                    "actionSequenceId": "AS_Button_d99f43f5ddff4f4fb255ad5d081373a8",
+                    "beautifiedPath": "frmIndex > btnComeBack > onClick",
+                    "evt": "ide_onClick",
+                    "from": "c3c33575ce054ec6b38e43419edd71e1",
+                    "isPSP": false,
+                    "points": [
+                        228,
+                        337.91193033854165,
+                        218,
+                        337.91193033854165,
+                        218,
+                        337.91193033854165,
+                        218,
+                        194.445263671875,
+                        193.2,
+                        194.445263671875,
+                        183.2,
+                        194.445263671875
+                    ],
+                    "to": "fef891f031b743d482f6ffc52b9da9c4",
+                    "widgetKUID": "fa61db91e9b44724aadeb243b4ed9811"
+                }
+            ],
+            "nodeDataArray": [
+                {
+                    "formKUID": "fef891f031b743d482f6ffc52b9da9c4",
+                    "formName": "frmHome",
+                    "isStartupForm": true,
+                    "key": "fef891f031b743d482f6ffc52b9da9c4",
+                    "loc": "8 24.845263671875003",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "c3c33575ce054ec6b38e43419edd71e1",
+                    "formName": "frmIndex",
+                    "isStartupForm": false,
+                    "key": "c3c33575ce054ec6b38e43419edd71e1",
+                    "loc": "228 224.845263671875",
+                    "thumbnailURL": null
+                }
+            ]
+        }
+    }
+}

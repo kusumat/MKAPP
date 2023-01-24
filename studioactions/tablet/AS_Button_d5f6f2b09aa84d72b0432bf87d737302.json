@@ -1,0 +1,29 @@
+{
+    "AS_Button_d5f6f2b09aa84d72b0432bf87d737302": {
+        "id": "AS_Button_d5f6f2b09aa84d72b0432bf87d737302",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form1",
+            "type": "forms",
+            "platform": null,
+            "KUID": "d5bb7a57eae84f8dbd59bfed05c0d8b6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__cd9ddf4c88474ad68ddb8e268a0d5783",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "Form2",
+            "formKUID": "j1fc6ffc71b54208b5842fbc450fb401",
+            "projectName": "MKAFSampleApp",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

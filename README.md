@@ -1,0 +1,2 @@
+# MKAFSampleApp
+Artifactory Sample App

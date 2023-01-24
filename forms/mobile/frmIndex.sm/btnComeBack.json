@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "45dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s10b2e8415f54419999ef80ea535ecfe",
+    "_text_": "Please Come Back",
+    "_top_": {
+        "type": "string",
+        "value": "565dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sd6cabcf17e14f4681d8341685221d00",
+    "id": "btnComeBack",
+    "ide_onClick": "AS_Button_d99f43f5ddff4f4fb255ad5d081373a8",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "fa61db91e9b44724aadeb243b4ed9811",
+    "name": "kony.ui.Button",
+    "parent": "frmIndex",
+    "pf": "frmIndex",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}
