@@ -1,0 +1,63 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        27,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s2e82fab7f2346dfacc6c808879903f9",
+    "_text_": "Back",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "android": {
+        "displayText": false
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "displaytext": false,
+    "focusskin": "s3a60f15c5fd4a39bb9824c88dc411b6",
+    "id": "headerButtonLeft",
+    "info": null,
+    "iphone": {
+        "padding": [
+            27,
+            0,
+            0,
+            0
+        ],
+        "paddingInPixel": true
+    },
+    "isvisible": true,
+    "kuid": "b2bccb1fe24444799245109670d1e2ca",
+    "masterType": 1,
+    "name": "kony.ui.Button",
+    "paddingLocked": false,
+    "paddinginpixel": false,
+    "parent": "headerContainer08",
+    "pf": "frmUnemployment",
+    "wType": "Button",
+    "zindex": 1
+}

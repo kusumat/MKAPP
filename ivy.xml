@@ -1,0 +1,18 @@
+
+	<ivy-module version="2.4"> <info organisation="com.kony" module="AppFactory"/>
+<dependencies>
+	<dependency name="com.kony.studio.viz.core.mac64"	rev="9.5.4.v202211251715"/>			
+	<dependency name="com.pat.tool.keditor" rev="9.5.4.v202211211557"/>	
+	<dependency name="com.pat.android" rev="9.5.4.v202211211358"/>
+	<dependency name="com.pat.tabrcandroid" rev="9.5.4.v202211211358"/>
+	<dependency name="com.kony.ios" rev="9.5.4.v202211211357"/>	
+	<dependency name="com.kony.webcommons" rev="9.5.4.202211211306"/>
+	<dependency name="com.kony.spa" rev="9.5.4.v202211211258"/>
+	<dependency name="com.kony.desktopweb" rev="9.5.4.v202211211258"/>
+	<dependency name="com.kony.thirdparty.jars" rev="9.5.4.v202211211306"/>
+	<dependency name="com.kony.referencearchitecture" rev="9.5.4.v202211210733" />
+	<dependency name="com.kony.mobile.fabric.client.sdk" rev="9.5.4.v202211210845"/>
+    <dependency name="com.kony.cloudmiddleware" rev="9.5.0.GA_v202211271746_r0"/>
+    <dependency name="com.kony.cloudthirdparty" rev="9.5.0.GA_v202211271746_r0"/>
+</dependencies>
+</ivy-module>

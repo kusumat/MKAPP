@@ -1,0 +1,60 @@
+{
+    "AS_Label_f930f71ffd944e3fa0d3732146a496d3": {
+        "id": "AS_Label_f930f71ffd944e3fa0d3732146a496d3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmBrowser",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e549ab718fea42b3b4605f3549ff6009"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__d8929b3846b143908916ca50e60c2a0b",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmAbout",
+            "formKUID": "b0876969a9764dd7a9cb51aa72c9af3d",
+            "mappings": {
+                "ME_Mapping_jaba92cb974c4907baeb54d05cc7ac6c": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_jaba92cb974c4907baeb54d05cc7ac6c",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "propertyKey": "headerTitleLabel_text",
+                        "widgetId": "headerTitleLabel",
+                        "widgetPath": "this.view.headerTitleLabel",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "itemId": "frmBrowser",
+                        "widgetKUID": "a391cbf4f42340a6b88965b1cd0197ef",
+                        "itemKUID": "e549ab718fea42b3b4605f3549ff6009",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "forkedPlatform": "all"
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_jaba92cb974c4907baeb54d05cc7ac6c"],
+            "enableMappingEditor": true,
+            "package": "",
+            "enableNavigationObj": true,
+            "navigationObj": "{\n    \"headerTitleLabel_text\": self.view.headerTitleLabel.text,\n    \"_meta_\": {\n        \"eventName\": \"\",\n        \"widgetId\": \"\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

@@ -1,0 +1,143 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "80dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s786a22a4ac7447382b2a0e5f5420732",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "Home": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a07710afc25942dc8631e22bb9e4ae47",
+                "srcKUID": "iaef57e1941d4a9ea64b56aeeecb1b88",
+                "wType": "Label"
+            }
+        },
+        "TopHead": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "a95a5f1924aa400ebd7cb720d6b84ea5",
+                "srcKUID": "ff160f73ee224a408c3421ca9a23630b",
+                "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "80dp"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
+            }
+        },
+        "TopHeadTiltle": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fade93a9b48f4ecc9fd5345e115c9882",
+                "srcKUID": "f66bbe565f5449b1aeac905a1f03eb73",
+                "wType": "FlexContainer"
+            }
+        },
+        "TopHeadToolbar": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a73b3de0bc4c4b6cab8a9decafbf604f",
+                "srcKUID": "j239d2e257a94039b5ed954755f205dd",
+                "wType": "FlexContainer"
+            }
+        },
+        "headerIconLeft": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h43054d3078845ed82a1ff52553beeac",
+                "srcKUID": "b806e0afd8cd4208ad9f4a4a8fc2e518",
+                "wType": "Label"
+            }
+        },
+        "headerTitleLabel": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bbdd8700f0d34c469fda26a608ffb89a",
+                "srcKUID": "j907bb7aafe34c85b5786e4b83f66674",
+                "wType": "Label"
+            }
+        },
+        "lblHead": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a09e2a2d7b704278b57b7189d10f608a",
+                "srcKUID": "aac289b1576d4fbe8293dd00dc39fa28",
+                "wType": "Label"
+            }
+        },
+        "topHeaderContainerBar": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h12bdb31dbe24c53b2f725b3a26065e8",
+                "srcKUID": "dfac23b7a8534156aeddb517c9d48d58",
+                "wType": "FlexContainer"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "TopHead",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "a95a5f1924aa400ebd7cb720d6b84ea5",
+    "layouttype": 4,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "frmLabor",
+    "pf": "frmLabor",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "ff160f73ee224a408c3421ca9a23630b",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

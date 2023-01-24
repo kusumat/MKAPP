@@ -1,0 +1,22 @@
+{
+    "AS_Button_da184cec1c42466aac59a65061787ed8": {
+        "id": "AS_Button_da184cec1c42466aac59a65061787ed8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAbout",
+            "type": "forms",
+            "platform": null,
+            "KUID": "e507e9d37bd94320a74cdab59acd7ac6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "OPEN_URL_ide_onClick_e65548da5d9f4c4a9ff450d113278b5f",
+            "type": "OPEN_URL",
+            "url": "http://ohiolmi.com"
+        }]
+    }
+}

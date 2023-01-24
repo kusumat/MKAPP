@@ -1,0 +1,12 @@
+{
+    "AS_FlexScrollContainer_da4f031389c94f4e878bb3bdc42a420e": {
+        "id": "AS_FlexScrollContainer_da4f031389c94f4e878bb3bdc42a420e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": []
+    }
+}

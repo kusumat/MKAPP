@@ -1,0 +1,61 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        15,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_skin_": "s8c186e3d63d49758b4001fc0108b70e",
+    "_text_": "Settings",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": false,
+    "focusskin": "sef3662facdc42b194c3fbf7f9736865",
+    "id": "headerButtonRight",
+    "ide_onClick": "AS_Button_ea3e6b8ee83e4212b791e5f2339b87cb",
+    "info": null,
+    "ipad": {
+        "padding": [
+            15,
+            0,
+            0,
+            0
+        ],
+        "paddingInPixel": true
+    },
+    "isvisible": true,
+    "kuid": "a98c8c1504bb4e87841f04475c166cdb",
+    "masterType": 1,
+    "name": "kony.ui.Button",
+    "paddingLocked": false,
+    "paddinginpixel": false,
+    "parent": "headerContainer08",
+    "pf": "frmBrowser",
+    "wType": "Button",
+    "zindex": 1
+}

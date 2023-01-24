@@ -1,0 +1,28 @@
+{
+    "AS_Segment_a38a213452f041c5b284f1410dbc1817": {
+        "id": "AS_Segment_a38a213452f041c5b284f1410dbc1817",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmLabor",
+            "type": "forms",
+            "platform": null,
+            "KUID": "aeb9eb32ff194adf8681a993aaa625bc"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onRowClick_ba25a136638c44949af54681107a1e4b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "LoadURLForLabor(eventobject.selectedRowItems);"
+        }]
+    }
+}

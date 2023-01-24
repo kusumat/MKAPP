@@ -1,0 +1,23 @@
+{
+    "AS_Switch_abdfb4e10dcc430183ec4e82159d8b8b": {
+        "id": "AS_Switch_abdfb4e10dcc430183ec4e82159d8b8b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSettings",
+            "type": "forms",
+            "platform": null,
+            "KUID": "e8d727a93aa04aae9858bb56d498e476"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_d357864c8c3042e6b985aa0d44cf6a31",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//#ifdef tabrcandroid\nSetAndroidPushNotifications(this.view);\n//#endif       \n\n//#ifdef ipad\n  SetiOSPushNotifications(this.view);\n//#endif",
+            "parentId": null
+        }]
+    }
+}

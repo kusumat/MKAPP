@@ -1,0 +1,23 @@
+{
+    "AS_Form_b7902b2a8d5f4048ae449da1047d42f9": {
+        "id": "AS_Form_b7902b2a8d5f4048ae449da1047d42f9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmBrowser",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e549ab718fea42b3b4605f3549ff6009"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ddd721fb678f41b28f7489e176bf94b7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.frmBrowser.brwWidget.requestURLConfig = eventobject;",
+            "parentId": null
+        }]
+    }
+}

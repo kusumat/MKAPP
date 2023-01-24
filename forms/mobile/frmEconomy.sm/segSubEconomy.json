@@ -1,0 +1,126 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "lblSeg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "MSA (Metropolitan Statistical Areas) Unemployment Rate"
+            }
+        },
+        {
+            "lblSeg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "County - Unemployment Rate"
+            }
+        },
+        {
+            "lblSeg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "County - Employed"
+            }
+        },
+        {
+            "lblSeg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "County - Unemployed"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "03",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segSubEconomy",
+    "ide_onRowClick": "AS_Segment_e11786427f414dbda561c9efe51d8e6c",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e79ca3cd31a8461bbf0671c401ee2339",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flexScrollSub",
+    "pf": "frmEconomy",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "cff145c476ca44249459afbdb151080b",
+    "rowcounter": 3,
+    "rowfocusskin": "sba998a74ea24d8db8ffc6cc76974299",
+    "rowskin": "s06e1cf2b6454d54974493792503e2ca",
+    "rowtemplate": "CopyflexSegSub2",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "sc290dc00cc24b188ae542aba3d5902d",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "CopyflexSegSub2": "CopyflexSegSub2",
+        "lblSeg": "lblSeg"
+    },
+    "zindex": 1
+}

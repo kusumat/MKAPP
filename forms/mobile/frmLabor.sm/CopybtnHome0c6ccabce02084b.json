@@ -1,0 +1,60 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "number",
+        "value": "10"
+    },
+    "_skin_": "s6536e39d52545088c4f6256f67c26c1",
+    "_text_": "home",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "36dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "displaytext": false,
+    "focusskin": "s47c8bb9f1f1455d869b1e2c2893d1ef",
+    "id": "CopybtnHome0c6ccabce02084b",
+    "info": null,
+    "iphone": {
+        "padding": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "paddingInPixel": true
+    },
+    "isvisible": true,
+    "kuid": "b7329edda0204b1698a87d06322df954",
+    "masterType": 1,
+    "name": "kony.ui.Button",
+    "paddingLocked": false,
+    "paddinginpixel": false,
+    "parent": "CopyheaderContainer0de23bb138f074d",
+    "pf": "frmLabor",
+    "wType": "Button",
+    "zindex": 1
+}

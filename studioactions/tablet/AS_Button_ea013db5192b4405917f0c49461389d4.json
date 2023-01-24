@@ -1,0 +1,23 @@
+{
+    "AS_Button_ea013db5192b4405917f0c49461389d4": {
+        "id": "AS_Button_ea013db5192b4405917f0c49461389d4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmBrowser",
+            "type": "forms",
+            "platform": null,
+            "KUID": "f7d100fd6d0547e58c779f94311de3d8"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_a54cfada2ed14bbf9093533912a60b6f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var previousForm = kony.application.getPreviousForm();\npreviousForm.show();",
+            "callbackType": null
+        }]
+    }
+}

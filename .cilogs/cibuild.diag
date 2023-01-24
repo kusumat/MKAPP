@@ -1,0 +1,36 @@
+Date/Time: Tue Jan 24 2023 11:37:13 GMT-0500 (Eastern Standard Time)
+OS Version: Darwin 20.6.0
+Architecture: x64
+
+CI Version: 9.5.4
+node version: v16.18.1
+
+Ant Home: /Users/Shared/Appfactory/Jenkins/buildslave/tools/hudson.tasks.Ant_AntInstallation/ant-1.10.8
+Java Home: /usr/local/Cellar/openjdk@11/11.0.17/libexec/openjdk.jdk/Contents/Home
+Android Home: /Appfactory/Jenkins/tools/android-sdk
+
+Java Version: java version "1.8.0_151"
+Java(TM) SE Runtime Environment (build 1.8.0_151-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.151-b12, mixed mode)
+NPM version: 8.19.2
+Ant version: Apache Ant(TM) version 1.10.8 compiled on May 10 2020
+Gradle version: undefined
+Xcode version: Xcode 13.1
+Build version 13A1030d
+Finalizer version: undefined
+
+Plugin List: com.kony.cloudmiddleware_9.5.0.GA_v202211271746_r0.jar
+com.kony.cloudthirdparty_9.5.0.GA_v202211271746_r0.jar
+com.kony.desktopweb_9.5.4.v202211211258.jar
+com.kony.ios_9.5.4.v202211211357.jar
+com.kony.mobile.fabric.client.sdk_9.5.4.v202211210845.jar
+com.kony.referencearchitecture_9.5.4.v202211210733.jar
+com.kony.spa_9.5.4.v202211211258.jar
+com.kony.studio.viz.core.mac64_9.5.4.v202211251715.jar
+com.kony.thirdparty.jars_9.5.4.v202211211306.jar
+com.kony.webcommons_9.5.4.202211211306.jar
+com.pat.android_9.5.4.v202211211358.jar
+com.pat.tabrcandroid_9.5.4.v202211211358.jar
+com.pat.tool.keditor_9.5.4.v202211211557.jar
+Build Error: undefined
+

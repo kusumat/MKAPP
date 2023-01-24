@@ -1,0 +1,23 @@
+{
+    "AS_Form_ba7b61f925e645418eea20b3668f4484": {
+        "id": "AS_Form_ba7b61f925e645418eea20b3668f4484",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSettings",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a54f02e0012549d6a2138ae41d4e79d7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_a67e10c8dc984c97898ef4c6bc1a37ac",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var PushNotification = kony.store.getItem(\"PushNotification\");\nif (PushNotification == \"0\")\n{\n  this.view.SwitchPushNotification.selectedIndex = 0;\n}\nelse\n{\n  this.view.SwitchPushNotification.selectedIndex = 1;\n}",
+            "parentId": null
+        }]
+    }
+}

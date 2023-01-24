@@ -1,0 +1,23 @@
+{
+    "AS_Switch_cab036ef42ed4595aa064dfa6b58c5c1": {
+        "id": "AS_Switch_cab036ef42ed4595aa064dfa6b58c5c1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSettings",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a54f02e0012549d6a2138ae41d4e79d7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_icb18deba02141459201dcf1c67f2113",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//#ifdef android\nSetAndroidPushNotifications(this.view);\n//#endif       \n\n//#ifdef iphone\n  SetiOSPushNotifications(this.view);\n//#endif",
+            "parentId": null
+        }]
+    }
+}

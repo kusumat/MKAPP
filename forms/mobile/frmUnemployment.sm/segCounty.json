@@ -1,0 +1,127 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "lblSeg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Adams"
+            }
+        },
+        {
+            "lblSeg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Allen"
+            }
+        },
+        {
+            "lblSeg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Ashland"
+            }
+        },
+        {
+            "lblSeg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Ashtabula"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "03",
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": "c5f3b602ecea46988648ca05bb1f65b8",
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segCounty",
+    "ide_onRowClick": "AS_Segment_gb51272a64fb4df1b93a8a075a421321",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "enableDictionary": false,
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e4f5c3b8d32649a9a69e1c11a6acc6a9",
+    "masterType": 1,
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flexScrollSub",
+    "pf": "frmUnemployment",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "c5f3b602ecea46988648ca05bb1f65b8",
+    "rowcounter": 3,
+    "rowfocusskin": "s13b28bd60ce49ecbfb7b4c4f9be6edf",
+    "rowskin": "s9e3c6eae3ba4dd9a0538b4e2c398d3f",
+    "rowtemplate": "flexSegment",
+    "seccounter": 0,
+    "sectionheaderskin": "s3da3e9b6dd14293bb43953273fb9187",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flexSegment": "flexSegment",
+        "lblSeg": "lblSeg"
+    },
+    "zindex": 1
+}

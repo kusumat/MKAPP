@@ -1,0 +1,127 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "lblSeg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "LABOR FORCE"
+            }
+        },
+        {
+            "lblSeg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "UNEMPLOYMENT"
+            }
+        },
+        {
+            "lblSeg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "INDUSTRY JOBS"
+            }
+        },
+        {
+            "lblSeg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "SUBSTATE ECONOMY"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "psp": {
+            "dockSectionHeaders": true
+        }
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "03",
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": "fd109f52e27b4e4dbc27ea734ce63461",
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segFrm",
+    "ide_onRowClick": "AS_Segment_ieadc85f33c34e58887fb598c7fa2389",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "haae281a33274e50a822f0bd892932f3",
+    "masterType": 1,
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flexScroll",
+    "pf": "frmMain",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "fd109f52e27b4e4dbc27ea734ce63461",
+    "rowcounter": 3,
+    "rowfocusskin": "s6176e8395ee42fc8c8ad1203c8cf492",
+    "rowskin": "s7a8bad3c21742d6a0fbc2e7aa8509fc",
+    "rowtemplate": "FBox0d2b4dfcdbd5e48",
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "seb3a5eb2bc84bc09927724537c37436",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "lblSeg": "lblSeg"
+    },
+    "widgetskin": "s328f8718c284746b9793b3cf5121ab9",
+    "zindex": 1
+}

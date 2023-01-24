@@ -1,0 +1,60 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        15,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "number",
+        "value": "10"
+    },
+    "_skin_": "s29cb5e0d25f49acb804b87a9d1e0750",
+    "_text_": "home",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "36dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "displaytext": false,
+    "focusskin": "see925d99c744bbd9ad2cedab61f0160",
+    "id": "btnHome",
+    "info": null,
+    "ipad": {
+        "padding": [
+            15,
+            0,
+            0,
+            0
+        ],
+        "paddingInPixel": true
+    },
+    "isvisible": true,
+    "kuid": "fcc6ea7ee73a4f12973dab72c66eba8c",
+    "masterType": 1,
+    "name": "kony.ui.Button",
+    "paddingLocked": false,
+    "paddinginpixel": false,
+    "parent": "headerContainer08",
+    "pf": "frmMSA",
+    "wType": "Button",
+    "zindex": 1
+}

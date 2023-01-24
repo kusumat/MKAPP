@@ -1,0 +1,66 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sd5c48c890d54137900183565bbc0623",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "android": {
+        "height": {
+            "type": "string",
+            "value": "100%"
+        }
+    },
+    "canUpdateUI": true,
+    "children": [
+        "CopyheaderTitleLabel0i8548c57a0d849",
+        "CopyheaderIconLeft0h7f6b490a0d547",
+        "CopyHome0g1e3bc66dc1d4b",
+        "CopyheaderButtonLeft0gea84696406e46",
+        "CopybtnHome0c6ccabce02084b"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "CopyheaderContainer0de23bb138f074d",
+    "info": null,
+    "isvisible": true,
+    "kuid": "g6674719172d451397fa0932ba499d8c",
+    "layouttype": 2,
+    "masterType": 1,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flexBHeader",
+    "pf": "frmLabor",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

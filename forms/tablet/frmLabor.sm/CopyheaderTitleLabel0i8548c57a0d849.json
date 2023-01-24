@@ -1,0 +1,66 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s8c746b0a8154f2ea33134442efd7615",
+    "_text_": "Labor Force",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "contentAlignment": 5,
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "49%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "id": "CopyheaderTitleLabel0i8548c57a0d849",
+    "info": null,
+    "ipad": {
+        "contentAlignment": 5,
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "d80990e7ddd84484a76b710ed556041f",
+    "masterType": 1,
+    "name": "kony.ui.Label",
+    "parent": "CopyheaderContainer0de23bb138f074d",
+    "pf": "frmLabor",
+    "spa": {
+        "contentAlignment": 5
+    },
+    "textstyle": {},
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}

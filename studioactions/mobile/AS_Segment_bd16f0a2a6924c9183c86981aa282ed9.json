@@ -1,0 +1,29 @@
+{
+    "AS_Segment_bd16f0a2a6924c9183c86981aa282ed9": {
+        "id": "AS_Segment_bd16f0a2a6924c9183c86981aa282ed9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmIndustry",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a48a7a567c7547ccbea19823d45a7dc0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_c822362f042f4bafb07e4e20327bf236",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "LoadURLForIndustryJobs(eventobject.selectedRowItems);",
+            "parentId": null
+        }]
+    }
+}

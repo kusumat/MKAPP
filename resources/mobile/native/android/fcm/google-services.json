@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "913111013533",
+    "project_id": "ohiolmi-mobile",
+    "storage_bucket": "ohiolmi-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913111013533:android:063339b4af63fff81f1c74",
+        "android_client_info": {
+          "package_name": "gov.ohio.jfs.ohiolmi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913111013533-5fccq1igttsonnl86pd6fvnrma803abt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTAkm97x8fF64cvHc60bAMRhsv0F5PAkM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913111013533-5fccq1igttsonnl86pd6fvnrma803abt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913111013533:android:2d85436cc54ca7561f1c74",
+        "android_client_info": {
+          "package_name": "gov.ohio.jfs.ohiolmi.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913111013533-5fccq1igttsonnl86pd6fvnrma803abt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTAkm97x8fF64cvHc60bAMRhsv0F5PAkM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913111013533-5fccq1igttsonnl86pd6fvnrma803abt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913111013533:android:cae248fd633091c61f1c74",
+        "android_client_info": {
+          "package_name": "gov.ohio.jfs.ohiolmi.uat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913111013533-5fccq1igttsonnl86pd6fvnrma803abt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTAkm97x8fF64cvHc60bAMRhsv0F5PAkM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913111013533-5fccq1igttsonnl86pd6fvnrma803abt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

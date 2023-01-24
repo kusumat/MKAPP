@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "number",
+        "value": "5"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_skin_": "sa333ff4dfb84248907215bb873ca1d4",
+    "_text_": "https://ohiolmi.com",
+    "_top_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "sa333ff4dfb84248907215bb873ca1d4",
+    "id": "lnkHome",
+    "ide_onClick": "AS_Button_da184cec1c42466aac59a65061787ed8",
+    "info": null,
+    "isvisible": true,
+    "kuid": "de5c64d402b24e00a7ad2959b5c66e78",
+    "masterType": 1,
+    "name": "kony.ui.Button",
+    "parent": "LinkHomepage",
+    "pf": "frmAbout",
+    "wType": "Button",
+    "zindex": 1
+}

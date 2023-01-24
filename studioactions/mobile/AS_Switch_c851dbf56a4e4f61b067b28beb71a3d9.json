@@ -1,0 +1,16 @@
+{
+    "AS_Switch_c851dbf56a4e4f61b067b28beb71a3d9": {
+        "id": "AS_Switch_c851dbf56a4e4f61b067b28beb71a3d9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_f3b9267ead56420f8aa3dab8aa14105e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//#ifdef android\nSetAndroidPushNotifications(this.view);\n//#endif       \n\n//#ifdef iphone\n  SetiOSPushNotifications(this.view);\n//#endif"
+        }]
+    }
+}

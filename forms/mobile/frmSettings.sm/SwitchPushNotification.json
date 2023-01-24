@@ -1,0 +1,84 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizSwitch",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "32dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_render_": true,
+    "_skin_": "sd002c35846447db9b81835c09229daa",
+    "_top_": {
+        "type": "string",
+        "value": "220dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "55dp"
+    },
+    "android": {
+        "render": true
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.01%"
+    },
+    "containerweight": 100,
+    "id": "SwitchPushNotification",
+    "ide_onSlide": "AS_Switch_cab036ef42ed4595aa064dfa6b58c5c1",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "nativeThumbLook": true
+        },
+        "render": true
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kiosk": {
+        "render": false
+    },
+    "kuid": "aeb8863845d7452e9bdbbd60334febd5",
+    "leftsidetext": "ON",
+    "name": "kony.ui.Switch",
+    "nativeThumbLook": true,
+    "onslide": null,
+    "osPlatform": "iphone",
+    "osVersion": "iOS7",
+    "parent": "flexScrollSub",
+    "pf": "frmSettings",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "rightsidetext": "OFF",
+    "selectedindex": 1,
+    "spaan": {
+        "render": false
+    },
+    "spabb": {
+        "render": false
+    },
+    "spaip": {
+        "render": false
+    },
+    "spawinphone8": {
+        "render": false
+    },
+    "wType": "Switch",
+    "widgetalignment": 5,
+    "winphone8": {
+        "render": false
+    },
+    "zindex": 1
+}

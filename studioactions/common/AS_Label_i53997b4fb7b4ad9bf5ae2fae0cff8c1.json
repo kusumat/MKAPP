@@ -1,0 +1,28 @@
+{
+    "AS_Label_i53997b4fb7b4ad9bf5ae2fae0cff8c1": {
+        "id": "AS_Label_i53997b4fb7b4ad9bf5ae2fae0cff8c1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "u3a165d4fea0488eaa5d12e7e4f9cb06"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_a6b1ca08e2274e5db02bdef4750f85d2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var ntf = new voltmx.mvc.Navigation(\"frmSettings\");\nntf.navigate();",
+            "parentId": null
+        }]
+    }
+}

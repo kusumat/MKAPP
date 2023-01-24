@@ -1,0 +1,17 @@
+{
+    "AS_FlexScrollContainer_de568884b21849b0a74d52f40522d541": {
+        "id": "AS_FlexScrollContainer_de568884b21849b0a74d52f40522d541",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "c4902b0f6417428abfa2663f47070ffc"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

@@ -1,0 +1,99 @@
+{
+    "models": {
+        "mobile": {
+            "class": "GraphLinksModel",
+            "linkDataArray": [
+                {
+                    "actionId": "NAVIGATE_TO_FORM__ide_onClick_c606014037bd42198baca5fa205298c7",
+                    "actionSequenceId": "AS_Button_d926e213becc45cc837009f0d460dd85",
+                    "beautifiedPath": "frmEconomy > btnHome > onClick",
+                    "evt": "ide_onClick",
+                    "from": "e192c39a639b450bb90501c9f3c8c5e5",
+                    "isPSP": false,
+                    "points": [
+                        168,
+                        178.04526367187498,
+                        178,
+                        178.04526367187498,
+                        178,
+                        178.04526367187498,
+                        178,
+                        178.04526367187498,
+                        444,
+                        178.04526367187498,
+                        454,
+                        178.04526367187498
+                    ],
+                    "to": "d722b97c9bcc48f1be48228440e40c2e",
+                    "widgetKUID": "a84a3cada8ad40f2818ef4cd41be15c0"
+                }
+            ],
+            "nodeDataArray": [
+                {
+                    "formKUID": "e549ab718fea42b3b4605f3549ff6009",
+                    "formName": "frmBrowser",
+                    "isStartupForm": false,
+                    "key": "e549ab718fea42b3b4605f3549ff6009",
+                    "loc": "454 624.845263671875",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "e192c39a639b450bb90501c9f3c8c5e5",
+                    "formName": "frmEconomy",
+                    "isStartupForm": false,
+                    "key": "e192c39a639b450bb90501c9f3c8c5e5",
+                    "loc": "8 24.845263671875003",
+                    "thumbnailURL": "/assets/HCLCloudLMI/forms/mobile/frmEconomy.sm/.thumbs/default.jpeg"
+                },
+                {
+                    "formKUID": "a48a7a567c7547ccbea19823d45a7dc0",
+                    "formName": "frmIndustry",
+                    "isStartupForm": false,
+                    "key": "a48a7a567c7547ccbea19823d45a7dc0",
+                    "loc": "454 1224.845263671875",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "g15da085565a4cbf902a92837fda4bc0",
+                    "formName": "frmLabor",
+                    "isStartupForm": false,
+                    "key": "g15da085565a4cbf902a92837fda4bc0",
+                    "loc": "454 1824.845263671875",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "c61a995ceaab480b80e9af5a088bad61",
+                    "formName": "frmMSA",
+                    "isStartupForm": false,
+                    "key": "c61a995ceaab480b80e9af5a088bad61",
+                    "loc": "454 2424.845263671875",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "d722b97c9bcc48f1be48228440e40c2e",
+                    "formName": "frmMain",
+                    "isStartupForm": true,
+                    "key": "d722b97c9bcc48f1be48228440e40c2e",
+                    "loc": "454 24.845263671875003",
+                    "thumbnailURL": "/assets/HCLCloudLMI/forms/mobile/frmMain.sm/.thumbs/default.jpeg"
+                },
+                {
+                    "formKUID": "a54f02e0012549d6a2138ae41d4e79d7",
+                    "formName": "frmSettings",
+                    "isStartupForm": false,
+                    "key": "a54f02e0012549d6a2138ae41d4e79d7",
+                    "loc": "454 3024.845263671875",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "bb0c41e32d6844309971c5237784c4d5",
+                    "formName": "frmUnemployment",
+                    "isStartupForm": false,
+                    "key": "bb0c41e32d6844309971c5237784c4d5",
+                    "loc": "454 3624.845263671875",
+                    "thumbnailURL": null
+                }
+            ]
+        }
+    }
+}

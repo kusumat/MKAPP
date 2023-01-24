@@ -1,0 +1,17 @@
+{
+    "AS_Button_j3e16a0906224a678e63824a2dd2f412": {
+        "id": "AS_Button_j3e16a0906224a678e63824a2dd2f412",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_j08f8d9603124bd8bc25f51c35b41562",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var previousForm = kony.application.getPreviousForm();\npreviousForm.show();",
+            "callbackType": null
+        }]
+    }
+}

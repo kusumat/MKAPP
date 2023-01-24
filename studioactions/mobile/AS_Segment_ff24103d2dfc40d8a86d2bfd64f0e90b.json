@@ -1,0 +1,29 @@
+{
+    "AS_Segment_ff24103d2dfc40d8a86d2bfd64f0e90b": {
+        "id": "AS_Segment_ff24103d2dfc40d8a86d2bfd64f0e90b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmMSA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c61a995ceaab480b80e9af5a088bad61"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_c4da7d95f97149b59ca7238008c3dc28",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "LoadURLForMSA(eventobject.selectedRowItems);",
+            "parentId": null
+        }]
+    }
+}

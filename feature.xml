@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<feature
+      id="com.kony.visualizer.mac"
+      label="%featureName"
+      version="9.5.4.v202211280128"
+      provider-name="%providerName">
+
+	<description>
+      %description
+	</description>
+
+	<copyright>
+      %copyright
+	</copyright>
+
+	<license url="%licenseURL">
+      %license
+	</license>
+
+	<url>
+      <update label="%updateSiteName" url="http://download.kony.com/visualizer_enterprise/9.0"/>
+      <discovery label="%updateSiteName" url="http://download.kony.com/visualizer_enterprise/9.0"/>
+	</url>
+
+	<plugin id="com.kony.studio.viz.api" version="9.5.4.v202211251715" unpack="false"/>	
+	<plugin id="com.kony.studio.viz.chrome.api"	version="9.5.4.v202211251715" unpack="false"/>	
+	<plugin id="com.kony.studio.viz.chrome.mac64" version="9.5.4.v202211251715" unpack="false"/>			
+	<plugin id="com.kony.studio.viz.core.mac64"	version="9.5.4.v202211251715" unpack="false"/>			
+	<plugin id="com.kony.studio.viz.nodejs.mac64" version="9.5.4.v202211251715" unpack="false"/>
+	<plugin id="com.pat.tool.keditor" version="9.5.4.v202211211557" unpack="false"/>	
+
+	<plugin id="com.pat.android" version="9.5.4.v202211211358" unpack="false"/>
+	<plugin id="com.pat.tabrcandroid" version="9.5.4.v202211211358" unpack="false"/>
+	<plugin id="com.kony.ios" version="9.5.4.v202211211357" unpack="false"/>	
+	
+	<plugin id="com.kony.webcommons" version="9.5.4.202211211306" unpack="false"/>
+	<plugin id="com.kony.spa" version="9.5.4.v202211211258" unpack="false"/>
+	<plugin id="com.kony.desktopweb" version="9.5.4.v202211211258" unpack="false"/>
+	
+	<plugin id="com.kony.thirdparty.jars" version="9.5.4.v202211211306" unpack="false"/>
+	<plugin id="com.pat.soapui.preversion" version="9.5.4.v202211211306" unpack="false"/>
+	<plugin id="com.pat.soapui" version="9.5.4.v202211211306" unpack="false"/>
+	<plugin id="com.kony.referencearchitecture" version="9.5.4.v202211210733" unpack="false" />
+
+	<plugin id="com.kony.mobile.fabric.client.sdk" version="9.5.4.v202211210845" unpack="false"/>
+    <plugin id="com.kony.cloudmiddleware" version="9.5.0.GA_v202211271746_r0" unpack="false"/>
+    <plugin id="com.kony.cloudthirdparty" version="9.5.0.GA_v202211271746_r0" unpack="false"/>
+</feature>

@@ -1,0 +1,132 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s786a22a4ac7447382b2a0e5f5420732",
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": ""
+    },
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "ButtonLink": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "de60b3039cbe42519f818eedc4481eca",
+                "srcKUID": "b014df302b0948c3992d8e82554da31a",
+                "wType": "Button"
+            }
+        },
+        "Foot": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "a8c14ffe5c4f427ca43dd0b21523cee7",
+                "srcKUID": "b40d05b46e0c4b4a8fffa64230fa3c0b",
+                "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "bottom": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
+            },
+            "centerX": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                },
+                "iphone": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "50dp"
+                }
+            },
+            "isVisible": true,
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            }
+        },
+        "FooterHyperLinkButton": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j030ed43cffc453a89d806498bd19b7f",
+                "srcKUID": "e3f949f9d03f4c00b4f55fd74b8f7f82",
+                "wType": "FlexContainer"
+            }
+        },
+        "flexFooter": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d2ec33a1210f48f184125bc84229f9ef",
+                "srcKUID": "ba32ba266c4e4317bf4ae66a75a264f3",
+                "wType": "FlexContainer"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "Foot",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "a8c14ffe5c4f427ca43dd0b21523cee7",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "frmSettings",
+    "pf": "frmSettings",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "b40d05b46e0c4b4a8fffa64230fa3c0b",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

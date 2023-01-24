@@ -1,0 +1,84 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizSwitch",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "32dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_render_": true,
+    "_skin_": "sd002c35846447db9b81835c09229daa",
+    "_top_": {
+        "type": "string",
+        "value": "220dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "55dp"
+    },
+    "android": {
+        "render": true
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.01%"
+    },
+    "containerweight": 100,
+    "id": "SwitchPushNotification",
+    "ide_onSlide": "AS_Switch_abdfb4e10dcc430183ec4e82159d8b8b",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "nativeThumbLook": true
+        },
+        "render": true
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kiosk": {
+        "render": false
+    },
+    "kuid": "dda2c7547bf948f9bdf6d41d674990df",
+    "leftsidetext": "ON",
+    "name": "kony.ui.Switch",
+    "nativeThumbLook": true,
+    "onslide": null,
+    "osPlatform": "tabrcandroid",
+    "osVersion": "iOS7",
+    "parent": "flexScrollSub",
+    "pf": "frmSettings",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "rightsidetext": "OFF",
+    "selectedindex": 1,
+    "spaandroidtablet": {
+        "render": false
+    },
+    "spabb": {
+        "render": false
+    },
+    "spaipad": {
+        "render": false
+    },
+    "spawindowstablet": {
+        "render": false
+    },
+    "wType": "Switch",
+    "widgetalignment": 5,
+    "windows8": {
+        "render": false
+    },
+    "zindex": 1
+}

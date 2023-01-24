@@ -1,0 +1,28 @@
+{
+    "AS_Label_c7deb0577b1b4dc2bb408c7af6247aca": {
+        "id": "AS_Label_c7deb0577b1b4dc2bb408c7af6247aca",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "u5e8d2a756e24fa9830cce79ee89ae18"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_f828fd27ad374d9c902983de4a23228a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var nav;\nvar currentForm = kony.application.getCurrentForm().id;\n\nswitch (currentForm) {\n  case 'frmUnemployment':\n    nav = new voltmx.mvc.Navigation(\"frmEconomy\");\n    break;\n  case 'frmMSA':\n    nav = new voltmx.mvc.Navigation(\"frmEconomy\");\n    break;\n  case 'frmAbout':\n    var formName = this.view.headerTitleLabel.text; \n    if ([LaborEnum.LaborForce, LaborEnum.LaborForceParticipationRate, LaborEnum.PayrollJobs, LaborEnum.HouseholdEmployment, LaborEnum.CoveredEmployment].includes(formName))\n      nav = new voltmx.mvc.Navigation(\"frmLabor\");         \n    else if([IndustryJobsEnum.TotalNonfarm, IndustryJobsEnum.TotalPrivate, IndustryJobsEnum.TotalPrivateAllEmployeesAverageWeeklyEarnings,IndustryJobsEnum.TotalPrivateAllEmployeesAverageWeeklyHours, IndustryJobsEnum.MiningAndLogging, IndustryJobsEnum.Construction, IndustryJobsEnum.Manufacturing,IndustryJobsEnum.TradeTransportationAndUtilities,IndustryJobsEnum.Information, IndustryJobsEnum.FinancialActivities,IndustryJobsEnum.ProfessionalAndBusinessServicesofessional, IndustryJobsEnum.EducationalAndHealthServices, IndustryJobsEnum.LeisureAndHospitality, IndustryJobsEnum.OtherServices, IndustryJobsEnum.Government].includes(formName))\n      nav = new voltmx.mvc.Navigation(\"frmIndustry\");    \n    else if (formName.includes(\"MSA\", 0))\n      nav = new voltmx.mvc.Navigation(\"frmMSA\"); \n    else if (formName.includes(\"County\", 0))\n      nav = new voltmx.mvc.Navigation(\"frmUnemployment\"); \n    break;\n  default:\n    nav = new voltmx.mvc.Navigation(\"frmMain\");\n}\n\nnav.navigate();",
+            "parentId": null
+        }]
+    }
+}

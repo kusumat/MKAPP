@@ -1,0 +1,12 @@
+{
+    "AS_Browser_a13bd8decdd249c1809543071756da98": {
+        "id": "AS_Browser_a13bd8decdd249c1809543071756da98",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": []
+    }
+}

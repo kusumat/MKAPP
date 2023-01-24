@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "72.22%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "2dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s92fdd48b2ff4cc89762f0fc19fb6925",
+    "_text_": "Download",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "46.08%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s12890899fe44c57afbf43e65b04b516",
+    "id": "AboutButtonLink",
+    "ide_onClick": "AS_Button_b8cabbbf9c38423eac15c1aba8a5010e",
+    "info": null,
+    "isvisible": true,
+    "kuid": "c927cd0417c84426a6e31910063d6507",
+    "masterType": 1,
+    "name": "kony.ui.Button",
+    "parent": "HyperLinkButton",
+    "pf": "frmAbout",
+    "wType": "Button",
+    "zindex": 1
+}

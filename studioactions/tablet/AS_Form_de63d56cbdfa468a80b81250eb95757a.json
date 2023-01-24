@@ -1,0 +1,23 @@
+{
+    "AS_Form_de63d56cbdfa468a80b81250eb95757a": {
+        "id": "AS_Form_de63d56cbdfa468a80b81250eb95757a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMain",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ec799720ca8e4cc390b64f4f7e5c3c6b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_c618764ed1404e80b48b076660d5705b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "loadHomePage(this.view);\n\nlet env = 'UAT v';\nif (appConfig.isturlbase.toLowerCase().includes('dev')) \n  env = 'DEV v';\n \nthis.view.Foot.FooterHyperLinkButton.btnVersion.text = env + appConfig.appVersion;\n",
+            "parentId": null
+        }]
+    }
+}

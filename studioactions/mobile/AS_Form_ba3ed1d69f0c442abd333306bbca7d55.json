@@ -1,0 +1,30 @@
+{
+    "AS_Form_ba3ed1d69f0c442abd333306bbca7d55": {
+        "id": "AS_Form_ba3ed1d69f0c442abd333306bbca7d55",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLabor",
+            "type": "forms",
+            "platform": "",
+            "KUID": "g15da085565a4cbf902a92837fda4bc0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__e540e6046d7541bfbce1a106ee2409b5",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "loadLabor",
+            "display": "loadLabor",
+            "inputparams": [{
+                "name": "laborView"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

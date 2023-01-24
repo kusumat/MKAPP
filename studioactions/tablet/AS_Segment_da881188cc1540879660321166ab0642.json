@@ -1,0 +1,28 @@
+{
+    "AS_Segment_da881188cc1540879660321166ab0642": {
+        "id": "AS_Segment_da881188cc1540879660321166ab0642",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmUnemployment",
+            "type": "forms",
+            "platform": null,
+            "KUID": "h7bfc30f1b9448eb8ffa9dc6fc5df8bd"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onRowClick_je40141554f94bc5921a65ccc62294ee",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": " LoadURLForUnemploymentCounties(eventobject.selectedRowItems);"
+        }]
+    }
+}

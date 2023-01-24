@@ -1,0 +1,17 @@
+{
+    "AS_Button_g030f3b16fd649fea50db66e17cc3501": {
+        "id": "AS_Button_g030f3b16fd649fea50db66e17cc3501",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "OPEN_URL_ide_onClick_he55626548ef47e38a387f914c920b6d",
+            "type": "OPEN_URL",
+            "url": "https://ohiolmi.com",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "AS_Label_g886808426da4c8bbb08d98ea3a0f2bd": {
+        "id": "AS_Label_g886808426da4c8bbb08d98ea3a0f2bd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "u44a96cc877343bd98c076d483fc506b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_e61f99fd33d7415cadec37f7f2a4eaf9",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var nav = new voltmx.mvc.Navigation(kony.application.getPreviousForm().id);\n\nvar formName = this.view.headerTitleLabel.text; \n  if ([LaborEnum.LaborForce, LaborEnum.LaborForceParticipationRate, LaborEnum.PayrollJobs, LaborEnum.HouseholdEmployment, LaborEnum.CoveredEmployment].includes(formName))\n    nav = new voltmx.mvc.Navigation(\"frmLabor\");         \n  else if([IndustryJobsEnum.TotalNonfarm, IndustryJobsEnum.TotalPrivate, IndustryJobsEnum.TotalPrivateAllEmployeesAverageWeeklyEarnings,IndustryJobsEnum.TotalPrivateAllEmployeesAverageWeeklyHours, IndustryJobsEnum.MiningAndLogging, IndustryJobsEnum.Construction, IndustryJobsEnum.Manufacturing,IndustryJobsEnum.TradeTransportationAndUtilities,IndustryJobsEnum.Information, IndustryJobsEnum.FinancialActivities,IndustryJobsEnum.ProfessionalAndBusinessServicesofessional, IndustryJobsEnum.EducationalAndHealthServices, IndustryJobsEnum.LeisureAndHospitality, IndustryJobsEnum.OtherServices, IndustryJobsEnum.Government].includes(formName))\n    nav = new voltmx.mvc.Navigation(\"frmIndustry\");    \n  else if (formName.includes(\"MSA\", 0))\n    nav = new voltmx.mvc.Navigation(\"frmMSA\"); \n  else if (formName.includes(\"County\", 0))\n    nav = new voltmx.mvc.Navigation(\"frmUnemployment\"); \n  else\n     nav = new voltmx.mvc.Navigation(\"frmMain\");\n\nnav.navigate();",
+            "parentId": null
+        }]
+    }
+}

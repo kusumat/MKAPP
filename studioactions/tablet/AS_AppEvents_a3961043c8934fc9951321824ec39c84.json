@@ -1,0 +1,22 @@
+{
+    "AS_AppEvents_a3961043c8934fc9951321824ec39c84": {
+        "id": "AS_AppEvents_a3961043c8934fc9951321824ec39c84",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__cb3bc153b6e845b88fae9b5d85dc98ef",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "setPustNotificationCallbacks",
+            "display": "setPustNotificationCallbacks",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

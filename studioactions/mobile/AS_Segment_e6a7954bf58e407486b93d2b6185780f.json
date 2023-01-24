@@ -1,0 +1,29 @@
+{
+    "AS_Segment_e6a7954bf58e407486b93d2b6185780f": {
+        "id": "AS_Segment_e6a7954bf58e407486b93d2b6185780f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onRowClick_gba29d9549d240c8b45fec2eca222aab",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "populateSegment",
+            "display": "populateSegment",
+            "inputparams": [{
+                "name": "frmMainView"
+            }],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}
